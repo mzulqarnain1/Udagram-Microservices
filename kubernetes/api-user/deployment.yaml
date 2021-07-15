@@ -15,7 +15,7 @@ spec:
         service: api-user
     spec:
       containers:
-        - image: mzulqarnain1/udagram-api-user:v0
+        - image: mzulqarnain1/udagram-api-user:v1
           name: api-user
           imagePullPolicy: Always
           env:

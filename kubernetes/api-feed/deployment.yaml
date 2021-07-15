@@ -15,7 +15,7 @@ spec:
         service: api-feed
     spec:
       containers:
-        - image: mzulqarnain1/udagram-api-feed:v0
+        - image: mzulqarnain1/udagram-api-feed:v1
           name: api-feed
           imagePullPolicy: Always
           env:

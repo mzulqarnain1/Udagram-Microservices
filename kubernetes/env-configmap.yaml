@@ -7,6 +7,6 @@ data:
   JWT_SECRET: someFakeJWTSecret
   POSTGRES_DB: postgres
   POSTGRES_HOST: zulqi-microservices-project.ckdb8i7ugz5k.eu-west-1.rds.amazonaws.com
-  URL: http://10.100.30.174:8100
+  URL: http://aaff19cebd6d3494c9a2b0ede7b738e3-1075816850.eu-west-1.elb.amazonaws.com
 metadata:
   name: env-config
