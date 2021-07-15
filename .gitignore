@@ -43,5 +43,3 @@ venv/
 
 set_env.sh
 cluster-info.txt
-kubernetes/aws-secret.yaml
-kubernetes/env-secret.yaml

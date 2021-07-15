@@ -18,6 +18,10 @@ spec:
         - image: mzulqarnain1/udagram-api-feed:v1
           name: api-feed
           imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
           env:
             - name: URL
               valueFrom:
