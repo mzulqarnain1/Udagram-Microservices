@@ -20,7 +20,7 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
 
   app.use(cors({
     allowedHeaders: [
-      'Origin', 'X-Requested-With',
+      'Origin', '*',
       'Content-Type', 'Accept',
       'X-Access-Token', 'Authorization',
     ],
